@@ -1,0 +1,1 @@
+cmd_/home/comp3300/Desktop/hello_module/hello.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.13.9-mykernv1/scripts/module-common.lds --build-id  -o /home/comp3300/Desktop/hello_module/hello.ko /home/comp3300/Desktop/hello_module/hello.o /home/comp3300/Desktop/hello_module/hello.mod.o
